@@ -1,0 +1,10 @@
+import platform
+platform_var = platform.uname()
+print ("*"*30)
+print (f'Machine:\t{platform_var.machine}')
+print (f'System:\t\t{platform_var.system}')
+print (f'Node:\t\t{platform_var.node}')
+print (f'Release:\t{platform_var.release}')
+print (f'Version:\t{platform_var.version}')
+print (f'Processor:\t{platform_var.processor}')
+print ("*"*30)
